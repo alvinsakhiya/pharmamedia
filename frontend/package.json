@@ -2,9 +2,9 @@
   "name": "pharmamedia",
   "version": "1.0.0",
   "description": "PharmaMedia CW2 frontend",
-  "main": "server.js",
+  "main": "JS/server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node JS/server.js"
   },
   "dependencies": {
     "express": "^4.19.2"

@@ -192,7 +192,7 @@ function renderAssetCards(assets) {
               <span>${uploadDate}</span>
             </div>
             <div class="media-actions">
-              <a href="details.html?id=${encodeURIComponent(id)}" class="btn btn-primary">View Details</a>
+              <a href="HTML/details.html?id=${encodeURIComponent(id)}" class="btn btn-primary">View Details</a>
               ${openFullSizeButton}
             </div>
           </div>
@@ -348,7 +348,7 @@ async function renderAssetDetails() {
               <h1 class="h3 mb-1">${title}</h1>
               <p class="text-muted mb-0">${category}</p>
             </div>
-            <a href="index.html" class="btn btn-outline-secondary align-self-start">Back to Library</a>
+            <a href="../index.html" class="btn btn-outline-secondary align-self-start">Back to Library</a>
           </div>
 
           <p class="mb-3">${description}</p>
@@ -463,7 +463,7 @@ async function deleteAsset(assetId) {
     }
 
     showToast("Asset deleted successfully.");
-    window.location.href = "index.html";
+    window.location.href = "../index.html";
   } catch (error) {
     console.error(error);
     showToast("Delete failed. Check your DELETE Logic App run history and Cosmos DB delete action.");
