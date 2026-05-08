@@ -1,0 +1,35 @@
+From Blob Storage
+
+
+Storage Account Name: alvinspharmamedia
+
+Key1 
+
+Key1: yqLx3RSEEGrt0eVYKb/DNoKcqq4JO/vEQm3+7oSdGuyJfH+9fusJZpQzoWzzQb9ztvGk0hPnL4i8+AStDzidiA==
+Connection String: DefaultEndpointsProtocol=https;AccountName=alvinspharmamedia;AccountKey=yqLx3RSEEGrt0eVYKb/DNoKcqq4JO/vEQm3+7oSdGuyJfH+9fusJZpQzoWzzQb9ztvGk0hPnL4i8+AStDzidiA==;EndpointSuffix=core.windows.net
+
+Key2
+
+
+Key2: jJpicdiXjiaxbdZPz+IEK0GsEaowjP9gA/BphjrKdeltHpCCTlqu8fNiqlEqZhTcLIrGqHFBSVfJ+AStpxQW8A==
+Connection String: DefaultEndpointsProtocol=https;AccountName=alvinspharmamedia;AccountKey=jJpicdiXjiaxbdZPz+IEK0GsEaowjP9gA/BphjrKdeltHpCCTlqu8fNiqlEqZhTcLIrGqHFBSVfJ+AStpxQW8A==;EndpointSuffix=core.windows.net
+
+
+
+
+From Cosmos DB
+
+URI : https://alvinspharmamediacosmos.documents.azure.com:443/
+
+Read-Write Keys 
+
+Primary Key: DfjDQvjXx4iOSD6bMZFGEN7sYMtw51eEizWuiHbQBXp9HzlZn5gUMYp75PMs254T73ojU6kkB9WTACDbpPGt3g==
+
+Secondary Key:  qQSOVtteIQXidojwuEzhrZt7eFJJ1HmfAAWjvuTdcRTwZwTqhnkrX3NHIKlYfqkQCmTi3N14iZmpACDbO3Myig==
+
+
+Primary Connection String: AccountEndpoint=https://alvinspharmamediacosmos.documents.azure.com:443/;AccountKey=DfjDQvjXx4iOSD6bMZFGEN7sYMtw51eEizWuiHbQBXp9HzlZn5gUMYp75PMs254T73ojU6kkB9WTACDbpPGt3g==;
+Secondary Connection String: AccountEndpoint=https://alvinspharmamediacosmos.documents.azure.com:443/;AccountKey=qQSOVtteIQXidojwuEzhrZt7eFJJ1HmfAAWjvuTdcRTwZwTqhnkrX3NHIKlYfqkQCmTi3N14iZmpACDbO3Myig==;
+
+Read-Only Keys
+

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PharmaMedia - Asset Details</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">PharmaMedia</a>
+      <div class="navbar-nav ms-auto flex-row gap-2">
+        <a class="nav-link" href="index.html">Library</a>
+        <a class="nav-link" href="upload.html">Upload</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container py-4">
+
+    <div class="hero-section p-4 p-md-5 mb-4">
+      <div class="row align-items-center g-4">
+        <div class="col-lg-8">
+          <span class="badge rounded-pill text-bg-light mb-3 px-3 py-2">
+            Multimedia Asset Details
+          </span>
+
+          <h1 class="display-5 fw-bold mb-3">Digital Asset Intelligence</h1>
+
+          <p class="lead text-secondary mb-4">
+            View detailed multimedia metadata, cloud-hosted asset information,
+            Azure-connected storage references, and AI-ready media analysis.
+          </p>
+
+          <div class="d-flex flex-wrap gap-2">
+            <span class="badge rounded-pill bg-primary-subtle text-primary px-3 py-2">Azure Blob Storage</span>
+            <span class="badge rounded-pill bg-success-subtle text-success px-3 py-2">Cosmos Metadata</span>
+            <span class="badge rounded-pill bg-warning-subtle text-dark px-3 py-2">Logic Apps API</span>
+            <span class="badge rounded-pill bg-info-subtle text-info-emphasis px-3 py-2">AI Content Safety</span>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="dashboard-card p-4">
+            <h5 class="fw-bold mb-4">Asset Intelligence</h5>
+
+            <div class="metric-item d-flex justify-content-between align-items-center mb-3">
+              <span>Storage Type</span>
+              <span class="fw-bold text-primary">Blob Storage</span>
+            </div>
+
+            <div class="metric-item d-flex justify-content-between align-items-center mb-3">
+              <span>Metadata</span>
+              <span class="fw-bold text-success">Cosmos DB</span>
+            </div>
+
+            <div class="metric-item d-flex justify-content-between align-items-center mb-3">
+              <span>API Access</span>
+              <span class="fw-bold text-warning">REST Enabled</span>
+            </div>
+
+            <div class="metric-item d-flex justify-content-between align-items-center">
+              <span>AI Status</span>
+              <span class="fw-bold text-info">Verified</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="assetDetails"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
