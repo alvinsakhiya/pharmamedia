@@ -1,0 +1,21 @@
+
+
+node_modules/
+frontend/node_modules/
+__pycache__/
+*.pyc
+.env
+*.env
+.DS_Store
+
+# Secrets
+Access Keys.txt
+/docs/Access Keys.txt
+
+# Python virtual environments
+venv/
+.venv/
+
+# macOS
+.AppleDouble
+.LSOverride
