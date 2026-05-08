@@ -1,11 +1,7 @@
-const UPLOAD_API_URL = "https://prod-04.italynorth.logic.azure.com:443/workflows/71cd48dc266d4a6a9c93b57356c50667/triggers/When_an_HTTP_request_is_received/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2FWhen_an_HTTP_request_is_received%2Frun&sv=1.0&sig=le7-pUEXnVLKtyNLRiTIZMDo1LLN3WXaFe5IZTXg0os";
-
-const GET_ASSETS_API_URL = "https://prod-27.italynorth.logic.azure.com:443/workflows/cd39b147fbe84f35ba036876878b0678/triggers/When_an_HTTP_request_is_received/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2FWhen_an_HTTP_request_is_received%2Frun&sv=1.0&sig=ga_1Xd8nOj2UIOQz2S-vdwdneN5lscu3zDn4D48s-Po";
-
-const DELETE_ASSET_API_URL = "https://prod-25.italynorth.logic.azure.com:443/workflows/0783a3738244430cbc60461fe0e864dd/triggers/When_an_HTTP_request_is_received/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2FWhen_an_HTTP_request_is_received%2Frun&sv=1.0&sig=-ihkrkhM8qSD525YYLH_3J6hDwzD1hhwCVawc85zvQc";
-
-const UPDATE_ASSET_API_URL = "https://prod-27.italynorth.logic.azure.com:443/workflows/276c25e4ce964062acd22e672d76c759/triggers/When_an_HTTP_request_is_received/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2FWhen_an_HTTP_request_is_received%2Frun&sv=1.0&sig=rdn6U6b-85J6swsFEiCjeaM9aoWmnVHi60ZMvJIlf8Q";
-
+const UPLOAD_API_URL = "...";
+const GET_ASSETS_API_URL = "...";
+const DELETE_ASSET_API_URL = "...";
+const UPDATE_ASSET_API_URL = "...";
 const BLOB_BASE_URL = "https://alvinspharmamedia.blob.core.windows.net/assets/";
 
 let allAssets = [];
